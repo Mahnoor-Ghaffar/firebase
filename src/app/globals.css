@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-color: #FFFAFA;
+    --button-color: #9BCCA3;
+    --button-hover: #475e4b;
+    --font-color: #CC4156;
+    --pink-bg:#FFCCD380;    ;
+    --font-black : #000000e0;
+    --img-over: rgba(255, 255, 255, 0.637);
+}
+
+
+@layer components {
+    .heading {
+        @apply text-[20px] md:text-[35px] lg:text-[40px] xl:text-[40px] uppercase font-bold md:leading-[4rem] leading-[3rem] text-center
+    }
+}
