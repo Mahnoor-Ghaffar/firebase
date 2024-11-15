@@ -35,11 +35,11 @@ const MobileNav = ({closeNav,showNav}:Props) => {
               </li>
 
               <li className='text-[35px] font-medium hover:text-black text-white'>
-                <Link href="/Products" onClick={closeNav}>Products</Link>
+                <Link href="/signup" onClick={closeNav}>Order</Link>
               </li>
 
               <li className='text-[35px] font-medium hover:text-black text-white'>
-                <Link href="#Footer" onClick={closeNav}>Contact</Link>
+                <Link href="/contact" onClick={closeNav}>Contact</Link>
               </li>
             </ul>
       </div>

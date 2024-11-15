@@ -40,7 +40,7 @@ const Nav = ({openNav}:Props) => {
               </li>
 
               <li className='text-[20px] hover:text-[var(--font-color)] text-[var(--font-black)] hover:underline hover:underline-offset-8'>
-                <Link href="/Order">Order</Link>
+                <Link href="/signup">Order</Link>
               </li>
 
               <li className='text-[20px] hover:text-[var(--font-color)] text-[var(--font-black)] hover:underline hover:underline-offset-8'>
